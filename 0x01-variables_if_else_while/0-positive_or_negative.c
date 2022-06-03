@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
-/** main-random number to n is executed
+
+/**
+ * main-random number to n is executed
  * when n>0 -positive, when n=0; is zero
+ * Return: 0
  */
+
 int main(void)
 {
 int n;
