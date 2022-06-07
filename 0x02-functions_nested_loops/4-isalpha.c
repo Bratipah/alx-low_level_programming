@@ -22,5 +22,3 @@ int _isalpha(int c)
 	}
 	_putchar('\n');
 }
-
-© 2022 GitHub, Inc.
