@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include <stdio.h>
 #include "main.h"
@@ -35,3 +36,5 @@ void print_remaining_days(int month, int day, int year)
 	}
 }
 >>>>>>> parent of c3ba16e... Leap year
+=======
+>>>>>>> 29cf8681f4bfa1b9e1486ff30c853b01dab52fde
