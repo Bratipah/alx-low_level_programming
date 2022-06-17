@@ -46,13 +46,14 @@ char *cap_string(char *str)
  *
  * Description:
  * Separators are: space, tabulation, new line,
- * ,, ;, ., !, ?, ", (, ), {, and }
+ * ,, ;, ., !, ?, , (, ), {, and }
  *
  * Return: 1 if c is a separator. 0 otherwise
  */
 int is_sep(char c)
 {
-	char seps[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '\"', '(', ')', '{', '}'};
+	char seps[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '\"', '(', ')',
+		'{', '}'};
 	int n = sizeof(seps) / sizeof(seps[0]);
 	int i;
 
