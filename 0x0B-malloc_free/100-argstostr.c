@@ -45,5 +45,6 @@ char *argstostr(int ac, char **av)
 			aout[ia] = av[i][j];
 		}
 		aout[ia] = '\0';
+		
 		return (aout);
 }
