@@ -11,7 +11,6 @@
 
 
 /**
-
  * struct list_s - singli linked list
 
  * @str: (malloc'ed string)
@@ -29,7 +28,6 @@
 
 
 typedef struct list_s
-
 {
 
 	char *str;
