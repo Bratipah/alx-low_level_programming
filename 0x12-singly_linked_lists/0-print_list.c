@@ -3,7 +3,6 @@
 
 
 /**
-
  * print_list - Prints all the elements of a list
 
  * @h: Pointer to the list to be printed
