@@ -1,19 +1,31 @@
 #include "main.h"
 
+
+
 /**
- *_strlen - calculate the length of a string
- * @s: the string to measur
- * Return: the string lengh
- */
+ *
+ * *_strlen - swaps the value of two integers
+ *
+ * * @s: The pointer value one
+ *
+ * * Return: c
+ *
+ * */
 
 int _strlen(char *s)
+
 {
-	int len = 0;
 
-	while (*s++)
+	int c = 0;
 
-	++len;
 
-	return (len);
+
+	while (s[c] != '\0')
+
+		c++;
+
+
+
+	return (c);
 
 }
